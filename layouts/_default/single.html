@@ -1,0 +1,13 @@
+{{ define "title" }}
+  {{- .Title }} &ndash; {{ .Site.Title -}}
+{{ end }}
+{{ define "main" }}
+  <article>
+    <h1>{{- .Title -}}</h1>
+    <p>{{- .Description -}}<p>
+    <p class="date">Created: {{ .PublishDate.Local.Format "2006-01-02 15:04 MST" -}}</p>
+    <p class="date">Last modified: {{ .Lastmod.Local.Format "2006-01-02 15:04 MST" -}}</p>
+    {{- .TableOfContents -}}
+    {{- .Content -}}
+  </article>
+{{ end }}

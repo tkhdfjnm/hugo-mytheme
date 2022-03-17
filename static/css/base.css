@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+@media screen {
+ * {
+  margin: 0em;
+  border: solid 0em black;
+  padding: 0em;
+  font: normal normal normal medium / normal 'Arial', sans-serif;
+  text-decoration: none;
+  color: black;
+  list-style: none none outside;
+ }
+
+ HEADER { 
+  margin: 1em 2em;
+  border-bottom: solid 2px maroon;
+ }
+ HEADER H1 {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: maroon;
+ }
+ HEADER H1 A {
+  font-weight: bold;
+  font-size: 1em;
+ }
+ HEADER P {
+  font-size: 0.8em;
+ }
+
+ ARTICLE {
+  clear: both;
+  margin: 1em 2em;
+  border-radius: 0em 1em;
+  padding: 0.5em;
+  background-color: black;
+  color: white;
+ }
+ ARTICLE H1 {
+  margin: 0em 0em 0.5em 0em;
+  border-bottom: solid 2px maroon;
+  font-weight: bold;
+  color: white;
+ }
+ ARTICLE H1:first-letter{
+  background-color: maroon;
+  font-size: 1.3em;
+  color: white;
+ }
+ ARTICLE P {
+  margin: 0.2em 0.5em;
+  color: white;
+ }
+ ARTICLE P.date {
+  margin: 0.2em 0.5em;
+  text-align: right;
+ }
+ ARTICLE OL {
+  margin: 0em 0.5em;
+ }
+ ARTICLE UL, ARTICLE DL {
+  margin: 0em 0.5em;
+ }
+ ARTICLE DT {
+  margin: 0.2em 0em;
+  font-weight: bold;
+ }
+ ARTICLE DT:first-letter{
+  background-color: maroon;
+  color: white;
+ }
+ ARTICLE OL LI {
+  margin: 0.2em 0em;
+  list-style: decimal inside;
+  color: white;
+ }
+ ARTICLE UL LI, ARTICLE DD {
+  margin: 0.2em 0em;
+  list-style: disc inside;
+  color: white;
+ }
+ ARTICLE FIGURE {
+  margin: 0.2em 0.5em;
+ }
+ ARTICLE IMG {
+  width: 100%;
+  height: auto;
+ }
+ ARTICLE A {
+  color: white;
+  text-decoration: underline;
+ }
+ ARTICLE A:hover {
+  font-weight: bold;
+  background-color: white;
+  color: maroon;
+ }
+
+ ARTICLE H2 {
+  margin: 0em 0em 0.5em 0em;
+  border-bottom: solid 2px maroon;
+  font-weight: bold;
+  color: white;
+ }
+ ARTICLE H2:first-letter{
+  background-color: maroon;
+  font-size: 1.3em;
+  color: white;
+ }
+
+ ARTICLE H3 {
+  font-weight: bold;
+  color: white;
+ }
+
+ FOOTER {
+  margin: 1em 2em;
+  border-top: solid 2px maroon;
+ }
+ FOOTER P {
+  font-size: 0.8em;
+  text-align: right;
+ }
+ FOOTER P A {
+  font-size: 1em;
+  text-decoration: underline;
+ }
+}
